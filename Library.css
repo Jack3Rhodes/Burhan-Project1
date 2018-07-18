@@ -1,0 +1,29 @@
+html, body{
+    max width: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: darkslategrey;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+div.scrollmenu a:hover {
+    background-color:palegreen;
+}
+div.scrollmenu a.active{
+    background-color: palegreen;
+    color: darkslategrey;
+}
+li,h3,h1{
+    color:darkslategrey;
+    font-family: cursive
+

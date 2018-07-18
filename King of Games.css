@@ -1,0 +1,50 @@
+html, body{
+    max width: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.scrollmenu {
+    background-color:
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+}
+
+div.scrollmenu a:hover {
+    background-color:grey;
+}
+div.scrollmenu a.active{
+    background-color: grey;
+    color: whitesmoke;
+}
+h1{
+    color:whitesmoke;
+}
+li{
+    color: whitesmoke; 
+}
+p{
+    color: whitesmoke;
+}
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+.row: {
+    content: "";
+    display: table;
+    clear: both;
+}
+p{color: whitesmoke}

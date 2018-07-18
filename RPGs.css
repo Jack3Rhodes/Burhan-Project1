@@ -1,0 +1,32 @@
+html, body{
+    max width: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.scrollmenu {
+    background-color:
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+div.scrollmenu a:hover {
+    background-color:darkslateblue;
+}
+div.scrollmenu a.active{
+    background-color: darkslateblue;
+    color: white;
+}
+h1{
+    color:salmon;
+}
+h3{
+    color:lightpink;
+}

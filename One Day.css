@@ -1,0 +1,49 @@
+html, body{
+    max width: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.scrollmenu {
+    background-color:
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: azure;
+    text-align: center;
+    padding: 15px;
+}
+
+div.scrollmenu a:hover {
+    background-color:lightskyblue;
+}
+div.scrollmenu a.active{
+    background-color: lightskyblue;
+    color: azure;
+}
+
+h1{
+    color:azure;
+}
+li{
+    color: azure; 
+    padding-bottom: 10px;
+    font-family:cursive;
+}
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+.row: {
+    content: "";
+    display: table;
+    clear: both;
+}

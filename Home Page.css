@@ -1,0 +1,15 @@
+
+html, body{
+    max width: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3,h1{
+    color: azure;
+    text-align: center;
+    
+}
+img{
+    text-align: center;
+}
